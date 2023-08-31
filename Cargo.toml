@@ -1,0 +1,14 @@
+[package]
+name = "noise"
+description = "A rust implementation of simplex noise"
+version = "1.0.0"
+authors = ["Dan Häßler"]
+edition = "2021"
+license = "MIT"
+keywords = ["simplex", "noise", "simplex-noise", "simplex_noise"]
+categories = ["mathematics"]
+
+[dependencies]
+
+[dev-dependencies]
+image = "*"
