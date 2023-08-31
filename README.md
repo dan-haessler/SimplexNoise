@@ -1,4 +1,5 @@
 # Perlin Simplex Noise Rust Implementation (1D, 2D, 3D)
+![example workflow](https://github.com/dan-haessler/SimplexNoise/actions/workflows/rust.yml/badge.svg)
 
 ## Showcase
 | <a href="./examples/noise.rs">Simplex Noise 2D</a> | <a href="./examples/noise.rs">Simplex Noise 2D with fBm</a> | <a href="./examples/noise.rs">Simple Terrain Synthesis</a>    |
