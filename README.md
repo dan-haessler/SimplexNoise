@@ -1,32 +1,9 @@
 # Perlin Simplex Noise Rust Implementation (1D, 2D, 3D)
 
 ## Showcase
-
-<style>
-.showcase {
-  display: flex;
-}
-.item {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-</style>
-<div class="showcase">
-  <div class="item">
-    <a href="./examples/noise.rs">Simplex Noise 2D</a>
-    <img src="./generated/noise.png">
-  </div>
-  <div class="item">
-    <a href="./examples/noise.rs">Fractal Brownian motion with Simplex Noise 2D</a>
-    <img class="image" src="./generated/fractal.png">
-  </div>
-  <div class="item">
-    <a href="./examples/noise.rs">Simple Terrain Synthesis</a>
-    <img class="image" src="./generated/terrain.png">
-  </div>
-</div>
-
+| <a href="./examples/noise.rs">Simplex Noise 2D</a> | <a href="./examples/noise.rs">Simplex Noise 2D with fBm</a> | <a href="./examples/noise.rs">Simple Terrain Synthesis</a>    |
+|----------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------|
+| <img src="./generated/noise.png" width="256">      | <img class="image" src="./generated/fractal.png" width="256">                   | <img class="image" src="./generated/terrain.png" width="256"> |
 
 ## Algorithms
 ### Simplex Noise
